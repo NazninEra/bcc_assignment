@@ -1,0 +1,120 @@
+body{
+    margin: 80px;
+}
+.logo{
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+    position: relative;
+    background-color: #e0fffa;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.img img{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.img{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(150, 198, 178);
+    justify-content: left;
+}
+div ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: medium;
+}
+div ul li a{
+    text-decoration: solid;
+    color: rgb(0, 0, 0);
+}
+div ul li a:hover{
+    background-color: rgb(232, 245, 203);
+    transition-duration: 1s;
+}
+.info{
+    padding: 20px;
+}
+.info h1{
+    font-size: 50px;
+    color: rgb(75, 142, 126);
+    margin-bottom: 20px;
+}
+span{
+    color: rgb(106, 170, 184);
+}
+.info a{
+    background-color: rgb(116, 168, 168);
+    padding: 10px 18px;
+    text-decoration: none;
+    color: rgb(244, 241, 208);
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 5px;
+}
+.img-box{
+    margin-top: 100px;
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 200px;
+    right: 100px;
+}
+.img-box img{
+    height: 400px;
+    position: absolute;
+    left: 100%;
+    top: 250px;
+    bottom: 0;
+    transform: translateX(-100%);
+    transition: bottom 1s, left 1s;
+    
+}
+.img-box:hover .back-img{
+    bottom: 20px;
+}
+.img-box:hover .main-img{
+    left: 95%;
+}
+.logo-pic img{
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+
+}
+.card-section{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.main-section{
+    margin: 60px 10px;
+    background-color: rgb(200, 237, 226);
+    padding: 20px 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.card-section div{
+    height: 200px;
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    background-color: rgb(236, 236, 220);
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+.card-section div:hover{
+    background-color: rgb(179, 233, 207);
+}
+.about-me{
+    background-color: rgb(200, 237, 226);
+    margin: 10px 10px;
+    padding: 20px 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
